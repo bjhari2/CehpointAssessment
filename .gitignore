@@ -1,0 +1,33 @@
+# Git ignore file for
+# https://github.com/bearlike/REMS-For-Organisations
+
+
+# Uploaded Files for certificate generation
+members/CDS_Admin/Uploaded files/
+
+#Uploaded files for mailing list updation
+members/Mailing-list/Uploaded files/
+
+# Generated Certificate
+public/Generated Certificate/
+
+# Generated Certificate
+public/Generated Forms/*.html
+
+# Test and Log Files
+test-*.php
+*.log
+
+# Ignore Secrets (API Keys)
+members/secrets_.php
+*.zip
+
+# Ignore User Profile Picture upload
+assets/img/avatars/users/*
+
+members/test.php
+
+# IDE specific files
+.DS_Store
+.vscode/
+.idea/
