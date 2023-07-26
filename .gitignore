@@ -19,7 +19,7 @@ test-*.php
 *.log
 
 # Ignore Secrets (API Keys)
-members/secrets_.php
+
 *.zip
 
 # Ignore User Profile Picture upload
